@@ -2,7 +2,13 @@ import React from 'react'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
 import './App.css'
-import Companies from './Companies/Companies'
+import Companies from './Components/Companies/Companies'
+import Residencies from './Components/Residencies/Residencies'
+import Value from './Components/Values/Value'
+import Contact from './Components/Contact/Contact'
+import GetStarted from './Components/Get Start/GetStarted'
+import Footer from './Components/Footer/Footer'
+
 function App() {
   return (
     <div className='App'>
@@ -12,8 +18,14 @@ function App() {
        <Hero/>
        </div>
        <Companies/>
+       <Residencies/>
+       <Value/>
+       <Contact/>
+       <GetStarted/>
+       <Footer/>
     </div>
   )
 }
+
 
 export default App
